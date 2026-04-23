@@ -3,35 +3,28 @@
 Coda is web application where users can track the drinks they have tried.
 The goal is to help users remember which drinks they liked and discover new ones.
 
-### Tech stack
+## Tech stack
 
-- Django
-- React
-- PostgreSQL
-- Docker
+- Backend : Django REST API
+- Frontend : React + Vite
+- Database : PostgreSQL
+- Containerization: Docker
 
-### Project Structure
+## Architecture
 
-backend/ <br>
-frontend/ <br>
-docs/
+- **Backend** - Django API responsible for data storage and business logic.
+- **Frontend** - React application that communicates with the backend API.
 
+The frontend communicates with the backend via HTTP API requests.
 
-### Setup Backend
+## Project structure
+Coda <br>
+|__ backend/ # Django backend <br>
+|__ frontend/ # React frontend <br>
+|__ docs/ # Project documentation
 
-Clone the repository: <br>
-git clone https://github.com/Thomas-Onnes/Coda.git <br>
-
-Go to the correct directory: <br>
-cd Coda/backend
-
-Create virtual environment: <br>
-Windows:
-.venv\Scripts\activate <br>
-Mac/Linux:  source .venv/bin/activate
-
-Install dependencies: <br>
-pip install -r requirements.txt
-
-Run the server: <br>
-Python manage.py runserver
+## Running the project
+Backend and frontend are started separately. <br>
+See the setup instructions in the individual folders:
+- [backend setup](backend/READM.md)
+- [frontend setup](frontend/READM.md)
