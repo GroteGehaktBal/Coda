@@ -26,5 +26,5 @@ Coda <br>
 ## Running the project
 Backend and frontend are started separately. <br>
 See the setup instructions in the individual folders:
-- [backend setup](backend/READM.md)
-- [frontend setup](frontend/READM.md)
+- [backend setup](backend/README.md)
+- [frontend setup](frontend/README.md)
